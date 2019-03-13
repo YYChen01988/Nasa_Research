@@ -1,0 +1,88 @@
+
+.titleBar{
+  background-color:#6ac6fc;
+  display:block;
+  color: #fff;
+  padding-left: 16px ;
+  width:100%;
+  height: 120px;
+}
+
+select{
+  font-size: 13pt;
+  width: 50%;
+  height:30px;
+  margin: 5px;
+  padding-left: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #4289f4;
+  color: white;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #d9dde2;
+  color: #9a9c9e;
+}
+
+button {
+    background-color: #4289f4;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button.disabled{
+  background-color: grey;
+
+}
+
+img {
+  padding: 20px;
+  /* border-top-left-radius:  8px; */
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
